@@ -2,6 +2,8 @@ package chapter6;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.File;
+
 import org.junit.Assert;
 import org.testng.annotations.Test;
 
@@ -45,4 +47,6 @@ public class Chapter6Test {
 	            assertThat().
 	            statusCode(200);
 	    }
+	    
+	  
 }

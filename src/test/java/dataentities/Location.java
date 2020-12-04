@@ -25,7 +25,7 @@ public class Location {
 
 	        this.places = places;
 	    }
-
+	    
 	    @JsonProperty("post code")
 	    public String getPostCode() {
 	        return postCode;
